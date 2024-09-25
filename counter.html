@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>counters</title>
+  <style>
+    .container,.content
+    {
+      box-sizing: border-box;
+      border-radius: 5px;
+    }
+    .container{
+     
+      background-color: #616161;
+      width:70%;
+      margin:auto;
+      height: 300px;
+      padding:30px;
+      
+    }
+    .content
+    {
+      width:50%;
+      background-color: #04A469;
+      padding:10px;
+      margin: auto;
+      font-size:20px;
+      color:#fff;
+      font-weight:500;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      height:200px;
+
+    }
+
+    ul li{
+      padding:10px;
+    }
+
+    ul{
+      counter-reset: l;
+      list-style-type: none;
+    }
+    li::before
+    {
+           counter-increment: l;
+           content:" " counter(l);
+            display: inline-block;
+            color:#fff;
+           border: 3px solid #555;
+           border-radius:50%;
+           margin-right: 16px;
+           background-color: #555;
+           padding:4px 10px;
+           box-sizing: border-box;
+          
+           
+    }
+
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+    <ul class="food">
+       <li class="items">Pizza</li>
+       <li class="items">Hamburger</li>
+       <li class="items">Hotdogs</li>
+    </ul>
+    </div>
+  </div>
+  
+</body>
+</html>

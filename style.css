@@ -1,0 +1,75 @@
+*{
+  margin:auto;
+  padding:0;
+  box-sizing: border-box;
+}
+p{
+  font-size: 20px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header,.nav-bar,.footer
+{
+   margin:8px;
+  background-color:#e7e9eb;
+  text-align: center;
+}
+
+.col-25,.col-75
+{
+  
+  display: inline-block;
+  background-color: #e7e9eb;
+  height: 200px;
+  text-align: center;
+  padding:70px;
+}
+.section
+{
+  width:100%;
+  margin:10px;
+
+}
+.col-25
+{
+  width:24%;
+}
+.col-75
+{
+  width:50%;
+}
+
+.footer
+{
+  
+  background-color: #e7e9eb;
+  margin: 8px;
+}
+
+/* Layout 2 css*/
+.nav-bar {
+  overflow: hidden;
+  
+  padding:20px;
+}
+.nav-bar a{
+   padding: 14px 16px;
+  text-decoration: none;
+   float: left;
+   text-align: center;
+   color:brown;
+   font-size: larger;
+}
+a:hover
+{
+ background-color: #fff;
+  color: red;
+}
+
+
+
+
+

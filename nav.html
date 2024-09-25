@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+  <title>Navigation Bars</title>
+  <Style>
+    *
+    {
+      margin: auto;
+      padding:0;
+    }
+    .nav-menu
+    {
+      box-sizing: border-box;
+      border: 0px solid #555;
+      width:20%;
+      margin:20px;
+      background-color:lightgray;
+    }
+    .nav-bar
+    {
+      padding:10px;
+      box-sizing: border-box;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .nav-bar a
+    {
+      text-decoration: none;
+      font-size:larger;
+      color:#000;
+    }
+    .nav-bar:first-child
+    {
+      background-color: #04AA6D;
+    }
+    
+    
+    .nav-bar:hover
+    {
+            background-color: #000;
+            opacity: .3;
+    }
+
+    .nav-bar a:hover
+    {
+      color:#fff;
+      background-color: #000;
+      
+    }
+  a
+  {
+    display: block;
+  }
+  .active:hover {
+  background-color: #04AA6D!important;
+  color: white!important;
+  opacity: 1!important;
+}
+.active a:hover {
+  background-color: #04AA6D!important;
+  color: white!important;
+}
+    
+  </Style>
+</head>
+<body>
+  <div class="nav-menu">
+    <div class="nav-bar active"><a href="#">Home</a></div>
+    <div class="nav-bar"><a href="#">News</a></div>
+    <div class="nav-bar"><a href="#">Contact</a></div>
+    <div class="nav-bar"><a href="#">About</a></div>
+          
+
+  </div>
+</body>
+</html>
